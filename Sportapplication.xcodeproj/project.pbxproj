@@ -9,23 +9,38 @@
 /* Begin PBXBuildFile section */
 		C387055C278DE2AA00D607ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387055B278DE2AA00D607ED /* AppDelegate.swift */; };
 		C387055E278DE2AA00D607ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387055D278DE2AA00D607ED /* SceneDelegate.swift */; };
-		C3870560278DE2AA00D607ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387055F278DE2AA00D607ED /* ViewController.swift */; };
+		C3870560278DE2AA00D607ED /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387055F278DE2AA00D607ED /* PlayersViewController.swift */; };
 		C3870563278DE2AA00D607ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3870561278DE2AA00D607ED /* Main.storyboard */; };
 		C3870566278DE2AA00D607ED /* Sportapplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3870564278DE2AA00D607ED /* Sportapplication.xcdatamodeld */; };
 		C3870568278DE2AC00D607ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3870567278DE2AC00D607ED /* Assets.xcassets */; };
 		C387056B278DE2AC00D607ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3870569278DE2AC00D607ED /* LaunchScreen.storyboard */; };
+		C3870576278DE31C00D607ED /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3870575278DE31C00D607ED /* SportsViewController.swift */; };
+		C3870578278DE34500D607ED /* CellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3870577278DE34500D607ED /* CellDelegate.swift */; };
+		C387057A278DE36E00D607ED /* SportViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3870579278DE36E00D607ED /* SportViewCell.swift */; };
+		C3A0CE91278DF7D3008863AA /* Sport+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A0CE8C278DF7D3008863AA /* Sport+CoreDataClass.swift */; };
+		C3A0CE93278DF7D3008863AA /* Player+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A0CE8E278DF7D3008863AA /* Player+CoreDataClass.swift */; };
+		C3A0CE94278DF7D3008863AA /* Player+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A0CE8F278DF7D3008863AA /* Player+CoreDataProperties.swift */; };
+		C3A0CE96278DF814008863AA /* Sport+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A0CE95278DF814008863AA /* Sport+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3870558278DE2AA00D607ED /* Sportapplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportapplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C387055B278DE2AA00D607ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C387055D278DE2AA00D607ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C387055F278DE2AA00D607ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C387055F278DE2AA00D607ED /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		C3870562278DE2AA00D607ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3870565278DE2AA00D607ED /* Sportapplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sportapplication.xcdatamodel; sourceTree = "<group>"; };
 		C3870567278DE2AC00D607ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C387056A278DE2AC00D607ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C387056C278DE2AC00D607ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3870575278DE31C00D607ED /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		C3870577278DE34500D607ED /* CellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDelegate.swift; sourceTree = "<group>"; };
+		C3870579278DE36E00D607ED /* SportViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportViewCell.swift; sourceTree = "<group>"; };
+		C3A0CE74278DEFC1008863AA /* Sportapplication2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sportapplication2.xcdatamodel; sourceTree = "<group>"; };
+		C3A0CE8C278DF7D3008863AA /* Sport+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sport+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C3A0CE8E278DF7D3008863AA /* Player+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C3A0CE8F278DF7D3008863AA /* Player+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C3A0CE95278DF814008863AA /* Sport+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sport+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +57,10 @@
 		C387054F278DE2AA00D607ED = {
 			isa = PBXGroup;
 			children = (
+				C3A0CE95278DF814008863AA /* Sport+CoreDataProperties.swift */,
+				C3A0CE8C278DF7D3008863AA /* Sport+CoreDataClass.swift */,
+				C3A0CE8E278DF7D3008863AA /* Player+CoreDataClass.swift */,
+				C3A0CE8F278DF7D3008863AA /* Player+CoreDataProperties.swift */,
 				C387055A278DE2AA00D607ED /* Sportapplication */,
 				C3870559278DE2AA00D607ED /* Products */,
 			);
@@ -58,16 +77,43 @@
 		C387055A278DE2AA00D607ED /* Sportapplication */ = {
 			isa = PBXGroup;
 			children = (
-				C387055B278DE2AA00D607ED /* AppDelegate.swift */,
-				C387055D278DE2AA00D607ED /* SceneDelegate.swift */,
-				C387055F278DE2AA00D607ED /* ViewController.swift */,
-				C3870561278DE2AA00D607ED /* Main.storyboard */,
-				C3870567278DE2AC00D607ED /* Assets.xcassets */,
-				C3870569278DE2AC00D607ED /* LaunchScreen.storyboard */,
+				C3870574278DE2D600D607ED /* Delegates */,
+				C3870573278DE2CD00D607ED /* Controllers */,
+				C3870572278DE2C100D607ED /* View */,
 				C387056C278DE2AC00D607ED /* Info.plist */,
 				C3870564278DE2AA00D607ED /* Sportapplication.xcdatamodeld */,
 			);
 			path = Sportapplication;
+			sourceTree = "<group>";
+		};
+		C3870572278DE2C100D607ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3870561278DE2AA00D607ED /* Main.storyboard */,
+				C3870567278DE2AC00D607ED /* Assets.xcassets */,
+				C3870569278DE2AC00D607ED /* LaunchScreen.storyboard */,
+				C3870579278DE36E00D607ED /* SportViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3870573278DE2CD00D607ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C387055F278DE2AA00D607ED /* PlayersViewController.swift */,
+				C3870575278DE31C00D607ED /* SportsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C3870574278DE2D600D607ED /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C387055B278DE2AA00D607ED /* AppDelegate.swift */,
+				C387055D278DE2AA00D607ED /* SceneDelegate.swift */,
+				C3870577278DE34500D607ED /* CellDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3870560278DE2AA00D607ED /* ViewController.swift in Sources */,
+				C3A0CE91278DF7D3008863AA /* Sport+CoreDataClass.swift in Sources */,
+				C387057A278DE36E00D607ED /* SportViewCell.swift in Sources */,
+				C3A0CE94278DF7D3008863AA /* Player+CoreDataProperties.swift in Sources */,
+				C3A0CE93278DF7D3008863AA /* Player+CoreDataClass.swift in Sources */,
+				C3870560278DE2AA00D607ED /* PlayersViewController.swift in Sources */,
 				C3870566278DE2AA00D607ED /* Sportapplication.xcdatamodeld in Sources */,
+				C3870576278DE31C00D607ED /* SportsViewController.swift in Sources */,
+				C3870578278DE34500D607ED /* CellDelegate.swift in Sources */,
 				C387055C278DE2AA00D607ED /* AppDelegate.swift in Sources */,
+				C3A0CE96278DF814008863AA /* Sport+CoreDataProperties.swift in Sources */,
 				C387055E278DE2AA00D607ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +420,7 @@
 		C3870564278DE2AA00D607ED /* Sportapplication.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				C3A0CE74278DEFC1008863AA /* Sportapplication2.xcdatamodel */,
 				C3870565278DE2AA00D607ED /* Sportapplication.xcdatamodel */,
 			);
 			currentVersion = C3870565278DE2AA00D607ED /* Sportapplication.xcdatamodel */;
