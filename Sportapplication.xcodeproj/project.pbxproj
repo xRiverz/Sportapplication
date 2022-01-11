@@ -57,10 +57,6 @@
 		C387054F278DE2AA00D607ED = {
 			isa = PBXGroup;
 			children = (
-				C3A0CE95278DF814008863AA /* Sport+CoreDataProperties.swift */,
-				C3A0CE8C278DF7D3008863AA /* Sport+CoreDataClass.swift */,
-				C3A0CE8E278DF7D3008863AA /* Player+CoreDataClass.swift */,
-				C3A0CE8F278DF7D3008863AA /* Player+CoreDataProperties.swift */,
 				C387055A278DE2AA00D607ED /* Sportapplication */,
 				C3870559278DE2AA00D607ED /* Products */,
 			);
@@ -77,6 +73,10 @@
 		C387055A278DE2AA00D607ED /* Sportapplication */ = {
 			isa = PBXGroup;
 			children = (
+				C3A0CE95278DF814008863AA /* Sport+CoreDataProperties.swift */,
+				C3A0CE8C278DF7D3008863AA /* Sport+CoreDataClass.swift */,
+				C3A0CE8E278DF7D3008863AA /* Player+CoreDataClass.swift */,
+				C3A0CE8F278DF7D3008863AA /* Player+CoreDataProperties.swift */,
 				C3870574278DE2D600D607ED /* Delegates */,
 				C3870573278DE2CD00D607ED /* Controllers */,
 				C3870572278DE2C100D607ED /* View */,
